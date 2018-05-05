@@ -7,10 +7,7 @@ library(ROAuth)
 requestURL <- "https://api.twitter.com/oauth/request_token"
 accessURL <- "https://api.twitter.com/oauth/access_token"
 authURL <- "https://api.twitter.com/oauth/authorize"
-consumerKey <- "FN5kpHlom1nH2MM05KWKKFqiv" # From dev.twitter.com
-consumerSecret <- "UhGDSc7YxJP7Jojtve4sATsEGlMNMLpD94XRZOohCOsRxSJ8GS" # From dev.twitter.com
-
-my_oauth <- OAuthFactory$new(consumerKey = consumerKey,
+y_oauth <- OAuthFactory$new(consumerKey = consumerKey,
                              consumerSecret = consumerSecret,
                              requestURL = requestURL,
                              accessURL = accessURL,
